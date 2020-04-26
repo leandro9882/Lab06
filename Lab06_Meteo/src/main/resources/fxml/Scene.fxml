@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.meteo.FXMLController">
    <top>
       <Label text="Lab6_Meteo" BorderPane.alignment="CENTER">
@@ -28,7 +27,7 @@
                         <Insets left="20.0" right="20.0" />
                      </HBox.margin>
                   </Label>
-                  <ChoiceBox fx:id="boxMese" prefHeight="25.0" prefWidth="92.0" />
+                  <ChoiceBox fx:id="boxMese" prefWidth="150.0" />
                   <Button fx:id="btnUmidita" mnemonicParsing="false" onAction="#doCalcolaUmidita" prefHeight="25.0" prefWidth="84.0" text="Umidità">
                      <HBox.margin>
                         <Insets left="20.0" />

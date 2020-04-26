@@ -40,8 +40,11 @@ public class Citta {
 		return counter;
 	}
 
-	public void setCounter(int counter) {
-		this.counter = counter;
+	public void setCounter(int value) {
+		this.counter=value;
+	}
+	public void revCounter() {
+		this.counter--;
 	}
 	
 	public void increaseCounter() {
